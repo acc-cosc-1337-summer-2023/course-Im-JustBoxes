@@ -10,4 +10,9 @@ TEST_CASE("Verify sum_numbers function")
 	REQUIRE(add_numbers(5, 5) == 10);
 	REQUIRE(add_numbers(10, 10) == 20);
 }
-
+//I need help with this, I am pretty sure I have the code correct but I am not getting an output
+TEST_CASE("Test Multiply Numbers")
+{
+	REQUIRE(multiply_numbers(10) == 50);
+	REQUIRE(multiply_numbers(2) == 10);
+}
